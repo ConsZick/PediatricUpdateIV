@@ -1,16 +1,69 @@
-.navbar {
-}
+/* tablet mode & Dekstop mode */
 
+/* Header */
 .jumbotron-title {
+  height: 600px;
+  position: relative;
   padding-top: 4rem;
   color: white;
   background-image: linear-gradient(to right, #70e1f5, #ffd194);
 }
 
-.logo {
-  gap: 0px;
+.container-layer2 {
+  right: -12px;
+  top: -34px;
+  margin: 36px;
+  height: 580px;
+  position: absolute;
+  z-index: 1;
 }
+
+.container-layer3 {
+  position: absolute;
+  z-index: 2;
+}
+
+.display-1 {
+  text-shadow: 1px 1px 3px #000;
+}
+.h2 {
+  text-shadow: 1px 1px 3px #000;
+}
+
+.judul-about {
+  text-shadow: 1px 1px 4px #000;
+}
+
+/* akhir Header */
+
+/* Countdown*/
+
+/* akhir Countdown */
+
+/* welcome Message */
+
+/* akhir welcome message */
 
 .card-welcome {
   background-image: linear-gradient(to right, #70e1f5, #ffd194);
+}
+
+.card-logo {
+  width: "18px";
+}
+
+/* mobile version */
+@media (max-width: 768px) {
+  .jumbotron-title {
+    height: 500px;
+  }
+
+  .container-layer2 {
+    top: 181px;
+    height: 480px;
+  }
+
+  .card-logo {
+    width: "25px";
+  }
 }

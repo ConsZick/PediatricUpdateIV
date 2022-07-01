@@ -10,7 +10,7 @@
   <body>
     <!-- Awal Navbar -->
     <section id="Menu">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Pediatric Update IV</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,20 @@
     <!-- Awal Jumbotron -->
     <div id="particles-js">
       <div class="jumbotron jumbotron-fluid jumbotron-title">
-        <div class="container">
+
+
+
+            <div class="container-fluid container-layer2">
+            <div class="row p-0 border-0 float-end" >
+              <div class="col-md-12 offset-md-0 col-6 offset-6">
+                <img class="img-fluid opacity-75 image-enggang" src="picture/LogoEnggang.png" alt="">
+              </div>
+            </div>
+            </div>
+
+
+
+        <div class="container-fluid container-layer3">
           <div class="row Logo g-0">
             <div class="col-8"></div>
             <div class="col-2">
@@ -44,15 +57,15 @@
           </div>
 
           <div class="row mt-3 text-center">
-            <div class="display-1 judul fst-italic fw-bold">Pediatric Update IV</div>
-            <div class="h2 fst-italic fw-bold">Update Management Of Common Infectious Diseases in Children</div>
+            <div class="display-1 judul fst-italic fw-bold mb-3">Pediatric Update IV</div>
+            <div class="h2 fst-italic fw-bold mb-3">Update Management Of Common Infectious Diseases in Children</div>
             <div class="h4 fw-bold font-monospace" style="color:rgb(69, 69, 206)">
-              <button type="button" class="btn btn-primary mb-3" disabled>21 September 2022</button>
+              <button type="button" class="btn btn-primary mb-3" disabled><h4>21 September 2022</h4></button>
               <br>  Hotel Ibis Pontianak</div>
           </div>
 
-          <div class="row justify-content-end">           
-            <img src="picture/LogoKota.png" class="img-fluid " alt="Logo-Kota" >
+          <!-- <div class="row justify-content-end">           
+            <img src="picture/LogoKota.png" class="img-fluid " alt="Logo-Kota" > -->
         
         </div>
       </div>
@@ -112,17 +125,73 @@
 
     <!-- awal Welcome Message -->
     <section id="welcome-message">
-      <div class="container-fluid container-welcome mt-2 mb-2">
+      <div class="container-fluid mx-3 container-welcome">
+        <div class="row align-content-center">
+              <div class="col-md-6">
+                <div class="fs-3 text-center">Welcome Message</div>
+                        <div class="row py-2 align-content-center text-center ">
+                          <div class="col-sm-6 ">
+                            <div class="card">
+                              <img src="picture/Logo-orang.jpg" class="mx-auto d-block w-75 card-img-top img-fluid" alt="...">
+                              <div class="card-body">
+                                <div class="fs-6 card-title font-monospace fst-italic">Chairman of IDAI Kal-Bar</div>
+                                <div class="card-text fw-bold ">dr. Muchammad Budi Nugroho, Sp.A</div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="card">
+                              <img src="picture/Logo-orang.jpg" class="mx-auto d-block w-75 card-img-top img-fluid" alt="...">
+                              <div class="card-body">
+                                <div class="fs-6 card-title font-monospace fst-italic">Chairman of Committe Pediatric Update IV</div>
+                                <div class="card-text fw-bold">dr. Rista Lestari, Sp.A</div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row align-content-center">
+                          <a class="btn btn-primary" href="#" role="button">View Details</a>
+                        </div>
+              </div>
+              <div class="col-md-6 ">
+                <div class="fs-3 text-center">Gallery</div>
+                <div class="row ">
+                  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="picture/Gallery1.jpeg" class="mx-auto d-block w-100 img-thumbnail" alt="...">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="picture/Gallery1.jpeg" class="mx-auto d-block w-100 img-thumbnail" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="picture/Gallery1.jpeg" class="mx-auto d-block w-100 img-thumbnail" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+        </div>
 
-        <div class="card card-welcome">
-          <!-- <div class="row justify-content-center text-center">
+        <!-- <div class="card card-welcome">
+          <div class="row justify-content-center text-center">
             <div class="col-6 mb-3 mt-3">
               <div class="fs-3 fst-italic text-light fw-bold">Welcome Message</div>
             </div>
             <div class="col-6 mb-3 mt-3">
               <div class="fs-3 fst-italic text-light fw-bold">Welcome Message</div>
             </div>
-          </div> -->
+          </div>
 
           <div class="row g-0 justify-content-evenly">   
 
@@ -134,24 +203,28 @@
                   </div>
                 </div>
 
-                <div class="row g-0 justify-content-evenly">
-                  <div class="card px-1 mx-1" style="width: 17rem;";>
+                <div class="row justify-content-center">
+                  
+                  <div class="card card-logo" >
                     <img src="picture/Logo-orang.jpg" class="card-img-top" alt="..." />
                     <div class="card-body">
                       <p class="fs-6 fst-italic font-monospace lh-sm">Chairman of IDAI Kal-Bar</dis>
                       <p class="fw-bold">dr. Muchammad Budi Nugroho, Sp.A</p>
                     </div>
-                  </div>    
-                      <div class="card px-1 mx-1" style="width: 17rem;">
-                        <img src="picture/Logo-orang.jpg" class="card-img-top" alt="..." />
+                  </div>   
+                
+                  
+                      <div class="card card-logo">
+                        <img src="picture/Logo-orang.jpg" class=" card-img-top" alt="..." />
                             <div class="card-body">
                               <p class="fst-italic font-monospace lh-sm">Chairman of Committe Pediatric Update IV</p>
                               <p class="fw-bold">dr. Rista Lestari, Sp.A</p>              
                             </div>
                       </div>
+                    
                 
                 </div>
-                <a class="btn btn-primary mt-4 fst-italic mb-3" href="#" role="button">View Detail</a>
+                <a class="btn btn-primary mt-4 fst-italic mb-3" href="welcome.html" role="button">View Detail</a>
               </div>
 
             <div class="col-md-6 mx-auto text-center">
@@ -201,7 +274,7 @@
               
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- akhir Welcome Message -->
@@ -285,7 +358,7 @@
                 <div class="col-md-4">
                   <img src="picture/logo/L-IDI.png" class="img-fluid rounded-end" alt="...">
                 </div>
-                <div class="col-md-8 justify-content-center">
+                <div class="col-md-8">
                   <div class="card-body ">
                     <h5 class="card-title">Speaker 4</h5>
                     <p class="card-text">Speaking About</p>
@@ -307,6 +380,25 @@
         </div>
       </div>
     </section>
+
+
+    
+    <!-- Mulai Round down acara -->
+
+<section id="rounded-acara">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col"></div>
+    </div>
+  </div>
+
+  
+
+</section>
+
+     <!-- Mulai Round down acara -->
+
+
 
     <section id="Footer">
       <div class="container-fluid bg-dark text-light">

@@ -1,23 +1,23 @@
 /* tablet mode & Dekstop mode */
 
 /* Header */
-.jumbotron-title {
+
+.jumbotron-about {
   height: 600px;
   position: relative;
   padding-top: 4rem;
   color: white;
+
   background-image: linear-gradient(to right, #70e1f5, #ffd194);
 }
 
 .container-layer2 {
-  right: -12px;
   top: -34px;
   margin: 36px;
   height: 580px;
   position: absolute;
   z-index: 1;
 }
-
 .container-layer3 {
   position: absolute;
   z-index: 2;
@@ -31,7 +31,7 @@
 }
 
 .judul-about {
-  text-shadow: 1px 1px 4px #000;
+  text-shadow: 5px 5px 10px #000;
 }
 
 /* akhir Header */
@@ -40,17 +40,28 @@
 
 /* akhir Countdown */
 
+/* partikel.js */
+#partikel-js {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+}
+
 /* welcome Message */
+.card-message {
+  background-image: linear-gradient(to bottom, #ffefba, #ffffff);
+}
 
 /* akhir welcome message */
 
-.card-welcome {
-  background-image: linear-gradient(to right, #70e1f5, #ffd194);
+/* Awal Speaker */
+.container-speaker {
+  background-image: url("picture/background-message.jpg");
+  background-size: cover;
+  background-position: center;
 }
-
-.card-logo {
-  width: "18px";
-}
+/* akhir speaker */
 
 /* mobile version */
 @media (max-width: 768px) {
@@ -61,6 +72,10 @@
   .container-layer2 {
     top: 181px;
     height: 480px;
+  }
+
+  .judul-about {
+    text-shadow: 1px 1px 4px #000;
   }
 
   .card-logo {

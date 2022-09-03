@@ -4,7 +4,7 @@
 
 #particles-js {
   height: 500px;
-  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  background-image: linear-gradient(to top, #2c0336 0%, #b307ca 100%);
   position: relative;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .h3 {
-  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+  text-shadow: 2px 1px 3px rgb(0, 0, 0);
 }
 .h1 {
   text-shadow: 1px 1px 3px #000;
@@ -68,7 +68,7 @@
 @media (max-width: 768px) {
   #particles-js {
     height: 480px;
-    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    background-image: linear-gradient(tto top, #2c0336 0%, #b307ca 100%);
     position: relative;
   }
 
